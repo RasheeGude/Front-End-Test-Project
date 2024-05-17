@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <nav id="navbar">
+            <img src="Images/Logo.png" alt="logo">
+            <div class="nav-links" id="myLinks">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#our_projects">Our Projects</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                </ul>
+                <button class="btn"><a href="#contact_us">Contact Us</a></button>
+
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="Images/Menu icon.png" alt="Menu icon">
+            </a>
+            
+        </nav>
+        <!-- Hero -->
+        <section id="home">
+            <div class="container">
+                <div class="left">
+                    <h1>Build Your
+                        Awesome  
+                        Website
+                    </h1>
+                    <p>Opec studio is a digital studio that offers several services
+                       such as UI/UX Design to developers, we will provide the best
+                       service for those of you who use our services.
+                    </p>
+                    <button class="btn2">
+                        <a href="#services">Services</a>
+                        <img src="Images/arrow-right-up.png" alt="">
+                    </button>
+                </div>
+                <div class="right">
+                    <img src="Images/Girl image.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- /Hero -->
+
+        <!-- The Service We Provide For You -->
+        <section id="services">
+            <div class="container2">
+                <h2>The Service We Provide For You</h2>
+                <div class="grid-container">
+                    <div class="grid-items">
+                        <img src="Images/icons/Icon 1.png" alt="">
+                        <p class="title">UI/UX Design</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, hic?</p>
+                    </div>
+                    <div class="grid-items">
+                        <img src="Images/icons/Icon 2.png" alt="">
+                        <p class="title">Graphic Design</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, hic?</p>
+                    </div>
+                    <div class="grid-items">
+                        <img src="Images/icons/Icon 3.png" alt="">
+                        <p class="title">Motion Design</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, hic?</p>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+        <!-- /The Services We Provide For You -->
+
+        <!-- Our Awesome Portfolio -->
+        <section id="our_projects">
+            <h3 class="portfolio">Our Awesome Portfolio</h3>
+            <div class="tab">
+                <button class="tablinks" onclick="viewSection(event, 'All')" id="defaultOpen">All</button>
+                <button class="tablinks" onclick="viewSection(event, 'Websites')">Websites</button>
+                <button class="tablinks" onclick="viewSection(event, 'Apps')">Apps</button>
+                <button class="tablinks" onclick="viewSection(event, 'Newsletters')">Newsletters</button>
+            </div>
+            <div id="All" class="tabcontent">
+                <div class="container6">
+                    <div class="left">
+                        <div class="left-items">
+                            <img src="Images/portfolio/Portfolio image 1.png" alt="Portfolio image 1">
+                            <p class="portfolio-title">ConceptZilla</p>
+                            <p class="portfolio-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button class="btn" style="width: fit-content;"><a href="#">View More</a></button>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="right-items">
+                            <div class="card-body" style="width: 588px;height: 212.34px;">
+                                <div>
+                                    <div class="card-title">Videopad</div>
+                                    <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                                <img src="Images/portfolio/Portfolio image 2.png" alt="Portfolio image 2">
+                            </div>
+                            <div class="card-body" style="width: 588px;height: 212.34px;">
+                                <div>
+                                    <div class="card-title">Panto</div>
+                                    <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                                <img src="Images/portfolio/Portfolio image 3.png" alt="Portfolio image 3">
+                            </div>
+                            <div class="card-body" style="width: 588px;height: 212.34px;">
+                                <div>
+                                    <div class="card-title">DigiTeck</div>
+                                    <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                                <img src="Images/portfolio/Portfolio image 4.png" alt="Portfolio image 4">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="Websites" class="tabcontent">
+                <div class="container6">
+                    
+                    <div class="right">
+                        <div class="right-items">
+                            
+                            <div class="card-body" style="width: 588px;height: 212.34px;">
+                                <div>
+                                    <div class="card-title">Panto</div>
+                                    <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                                <img src="Images/portfolio/Portfolio image 3.png" alt="Portfolio image 3">
+                            </div>
+                            <div class="card-body" style="width: 588px;height: 212.34px;">
+                                <div>
+                                    <div class="card-title">DigiTeck</div>
+                                    <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                                <img src="Images/portfolio/Portfolio image 4.png" alt="Portfolio image 4">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="Apps" class="tabcontent">
+                <div class="container6">
+                    
+                    <div class="right">
+                        <div class="right-items">
+                            <div class="card-body" style="width: 588px;height: 212.34px;">
+                                <div>
+                                    <div class="card-title">Videopad</div>
+                                    <div class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                                <img src="Images/portfolio/Portfolio image 2.png" alt="Portfolio image 2">
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="Newsletters" class="tabcontent">
+                <div class="container6">
+                    <div class="left">
+                        <div class="left-items">
+                            <img src="Images/portfolio/Portfolio image 1.png" alt="Portfolio image 1">
+                            <p class="portfolio-title">ConceptZilla</p>
+                            <p class="portfolio-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <button class="btn" style="width: fit-content;"><a href="#">View More</a></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+        <!-- /Our Awesome Portfolio -->
+
+        <!-- What our Client Says -->
+        <section id="about_us">
+            <h3>What Our Client Says</h3>
+            <div class="container5">
+                <div class="indicator">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="slider">
+                    <div class="test_card">
+                        <div class="left-card">
+                            <img src="Images/Testimonials/Testimonial image.png" alt="Testimonial image">
+                        </div>
+                        <div class="right-card">
+                            <div class="ratings">
+                                <img src="Images/Testimonials/Star.png" alt="ratings">
+                                <img src="Images/Testimonials/Star.png" alt="ratings">
+                                <img src="Images/Testimonials/Star.png" alt="ratings">
+                                <img src="Images/Testimonials/Star.png" alt="ratings">
+                                <img src="Images/Testimonials/Star.png" alt="ratings">
+                            </div>
+                            <div class="remark">
+                                <p class="remark-title">Great Design</p>
+                                <p class="remark-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam deserunt esse, nemo molestias repellat?</p>
+                            </div>
+                            <div class="profile">
+                                <div class="left-profile">
+                                    <img src="Images/Testimonials/Profile 1.png" alt="Profile 1">
+                                </div>
+                                <div class="right-profile">
+                                    <p class="p-name">Foster Richmond</p>
+                                    <p class="p-role">Product Manager DigiTeck </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="remark">
+                            <p class="remark-title">Great Design</p>
+                            <p class="remark-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam deserunt esse, nemo molestias repellat?</p>
+                        </div>
+                        <div class="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                        </div>
+                        <div class="profile">
+                            <div class="left-profile">
+                                <img src="Images/Testimonials/Profile 2.png" alt="Profile 1">
+                            </div>
+                            <div class="right-profile">
+                                <p class="p-name">Eliza Ryan</p>
+                                <p class="p-role">Product Manager Panto </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="remark">
+                            <p class="remark-title">Great Design</p>
+                            <p class="remark-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam deserunt esse, nemo molestias repellat?</p>
+                        </div>
+                        <div class="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                            <img src="Images/Testimonials/Star.png" alt="ratings">
+                        </div>
+                        <div class="profile">
+                            <div class="left-profile">
+                                <img src="Images/Testimonials/Profile 3.png" alt="Profile 1">
+                            </div>
+                            <div class="right-profile">
+                                <p class="p-name">Gary Stanton</p>
+                                <p class="p-role">Product Manager Panto </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /What our Client Says -->
+
+        <footer id="contact_us">
+            <div class="container3">
+                <div class="left">
+                    <img src="Images/Logo.png" alt="logo">
+                    <div class="col">
+                        <div class="left-col">
+                            <p class="address-title">Our Address</p>
+                            <p class="address-description">246 4th Avenue <br> 
+                                New York, NY 10001 <br> 
+                                United States</p>
+                        </div>
+                        <div class="right-col">
+                            <p class="contact-title">Our Contacts</p>
+                            <p class="contact-description">info@opec.com <br> 548-548-8589</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <img src="Images/media-icons/facebook.png" alt="facebook">
+                        <img src="Images/media-icons/Twitter.png" alt="Twitter">
+                        <img src="Images/media-icons/Instagram.png" alt="Instagram">
+                        <p>-follow us</p>
+                    </div>
+                    <div class="security">
+                        <p class="security-item">Privacy Policy</p>
+                        <p class="security-item">Terms & Conditions</p>
+                    </div>
+                </div>
+                <div class="right container4">
+                    <form id="form" class="form">
+                        <h4>Contact Us</h4>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Name">
+                            <span style="color:red" id="name_error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email">
+                            <span style="color:red" id="email_error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="number" name="number" placeholder="Contact Number">
+                            <span style="color:red" id="number_error"></span>
+                        </div>
+                        
+                        <h5>Message</h5>
+                        <textarea name="message" id="message" cols="30" rows="3"></textarea>
+                        <button type="submit" id="button">Send message</button>
+                    </form>
+                    <div class="security">
+                        <p class="security-item">© 2022 Opec, All Rights Reserved</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
